@@ -1,6 +1,6 @@
 # Star Cluster Photometry (BSc Project)
 
-This repository contains the Python code used for CCD photometry and isochrone fitting of the open clusters M34, M35 and M37.
+This repository contains the Python code used for photometry and isochrone fitting of the open clusters M34, M35 and M37.
 
 ## Overview
 
