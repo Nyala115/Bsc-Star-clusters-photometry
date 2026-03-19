@@ -53,7 +53,7 @@ cornerRadius = 1000
 #further removes effects of vignetting as it effects corners and edges most
 #can be seen in the colour bar plot  
                    
-threshold_factor = 9 #changed    
+threshold_factor = 8 #changed    
 #pixels must exceed background by 5 stdv to count as signal.  
   
 useExistingBackground = True 
@@ -69,14 +69,14 @@ backgroundAlg = 'gauss'
 minPix = 8 #changed!!!!!! 
 # must be across 6 pixels as 1 or 2 is likely to be noise/hot pixels
                    
-sigma_cl_min = 6   #changed!!!!       
-sigma_cl_max = 10     #changed!!!!
+sigma_cl_min = 8   #changed!!!!       
+sigma_cl_max = 9     #changed!!!!
 #sigma_cl is a measure of width of detected cluster of pixels.
 #sigma min says if its less than 6 dont consider it a star as it could be noise 
 #sigma max says if its more than 10 dont consider it as it could be 2 stars or background galaxies, nebulae etc
 #PSF is around 8 pixels so within this range.  
       
-rho_cl_max = 0.15 #changed!!!!!  
+rho_cl_max = 0.1 #changed!!!!!  
 #rho_clo measures how elongated a detector object is (how round or stretched a cluster of pixels are)  
 #low rho is good (round)
 #high rho is bad (stretched or line)
