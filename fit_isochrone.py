@@ -315,7 +315,7 @@ colour = colour[obs_mask]
 mag = mag[obs_mask]
 
 
-# OPTIONAL: DEFINE A FITTING SUBSET
+#  DEFINE A FITTING SUBSET
 # This narrower region is used only for the residual and
 # turn-off scatter calculation.
 # It helps avoid outliers and obvious field-star contamination.
